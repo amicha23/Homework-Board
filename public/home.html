@@ -1,0 +1,53 @@
+<!--
+  Homework board html
+-->
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>HB</title>
+    <link rel='stylesheet' href='styles.css'>
+    <script src='interactive.js'></script>
+  </head>
+  <body></body>
+    <nav>
+      <button id='home-btn'>Home</button>
+      <input id='search-term' type='text'>
+      <button id='post-btn'>Post</button>
+      <button id='search-btn' disabled>Search</button>
+    </nav>
+    <header>
+      <div>
+        <img src='img/logo.png' alt='logo'>
+        <h1>Homework Board</h1>
+        <img src='img/logo.png' alt='logo'>
+      </div>
+    </header>
+    <main>
+      <article id='student-data'>
+        <!-- home view -->
+        <section id='home'>
+        </section>
+
+        <!-- user view -->
+        <section id='user' class='hidden'>
+        </section>
+
+        <!-- new post view -->
+        <section id='new' class='hidden'>
+          <h2>Have a question?</h2>
+          <form>
+            <label for='post'>Ask a question</label>
+            <input type='text' id='post-box' name='full' required>
+            <label for='name'>Name</label>
+            <input type='text' id='name' name='name' required>
+            <button>Submit</button>
+          </form>
+        </section>
+      </article>
+
+      <!-- error view -->
+      <h2 id='error' class='hidden'>An error has occured, please try again later!</h2>
+    </main>
+  </body>
+</html>

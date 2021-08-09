@@ -1,0 +1,188 @@
+/*
+  CSS styles file
+*/
+
+body {
+  background-color: #E8F0F2;
+  margin: 0px;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+/* fonts */
+header, .individual {
+  font-family: 'Arial', 'Times New Roman';
+}
+
+main, button, input {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header styles */
+header, nav, header div {
+  display: flex;
+  align-items: center;
+}
+
+header, nav {
+  justify-content: space-around;
+}
+
+header {
+  background-color: #39A2DB;
+  position: sticky;
+  top: 0;
+  height: 15vh;
+}
+
+header img {
+  margin: 0px;
+  margin-right: 1.5vw;
+  height: 8vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2vw;
+  font-size: 38px;
+}
+
+nav input {
+  height: 30px;
+  width: 45vw;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1vw;
+  margin: 1%;
+  width: 20%;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #E8E4E1;
+}
+
+/************ main styles ************/
+/* general section styles */
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* home view styles */
+.card, .card div {
+  display: flex;
+}
+
+.card {
+  background-color: #A2DBFA;
+  padding: 2.0vh;
+  border-radius: 8.5px;
+  font-size: 15pt;
+  margin: 1.0vh;
+}
+
+.card img {
+  padding: 1vh;
+  background-color: #053742;
+  border-radius: 50%;
+}
+
+.card > div {
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.card > img {
+  height: 13vh;
+}
+
+.card p {
+  margin: 0px;
+}
+
+.individual {
+  cursor: pointer;
+}
+
+.individual:hover {
+  text-decoration: underline #053742;
+}
+
+.meta {
+  margin-left: auto;
+  padding-right: 10px;
+  font-size: 16px;
+  flex: 0 0 15%;
+}
+
+.meta img {
+  height: 2vh;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.meta div {
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.meta img:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  font-size: 20pt;
+  padding-left: 15px;
+}
+
+/* new post */
+label {
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #A2DBFA;
+  padding: 4px 16px 17px 17px;
+  border-radius: 15px;
+}
+
+form input {
+  height: 35px;
+}
+
+/* user view */
+.single {
+  background-color: #E8F0F2;
+  border-radius: 10px;
+  margin: 1.5vh;
+  padding: 1.5vh;
+}
+
+.single p {
+  font-size: 16pt;
+  background-color: #A2DBFA;
+  border-radius: 7.5px;
+  padding: 1.5vh;
+}
+
+.single p:hover {
+  transform: scale(1.01);
+}
+
+.hidden {
+  display: none;
+}
