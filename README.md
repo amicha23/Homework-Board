@@ -10,3 +10,4 @@ Homework Board is a web application that allows students easy access to an inter
 
 ## Features
 users can view, like, create, search, filter, and delete posts. 
+![View](img/view.PNG)
