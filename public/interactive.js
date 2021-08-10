@@ -188,7 +188,7 @@
     let metaDiv = gen("div");
 
     let metaDivImg = gen("img");
-    metaDivImg.src = "img/heart.png";
+    metaDivImg.src = "img/heart.jpg";
     metaDivImg.alt = "heart";
     metaDiv.appendChild(metaDivImg);
     let metaDivP = gen("p");

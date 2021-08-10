@@ -125,9 +125,10 @@ section {
 }
 
 .meta img {
-  height: 2vh;
+  height: 4vh;
   margin-right: 4px;
   cursor: pointer;
+  background-color: #A2DBFA;
 }
 
 .meta div {
