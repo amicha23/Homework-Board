@@ -16,7 +16,6 @@ The app.js file is the root of the directory. The forward facing static files (H
 Users can choose from a variety of features to interactive with other classmates.
 - Users start in the home screen and can scroll throw the posts of other classmates. like, create, search, filter, and delete posts. 
 ![View](img/view.PNG)
-
 - Users may upvote their peers questions to gravitate more attention towards questions that other classmates may have as well.
 ![Create Like](img/like.png)
 - Users can easily create a new post by clicking the 'post' button and entering their question, followed by the question number.
